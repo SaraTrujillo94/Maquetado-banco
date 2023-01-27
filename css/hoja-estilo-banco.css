@@ -1,0 +1,303 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.cabecera{
+    padding: 0.3rem;
+}
+
+
+.Categoria1{
+    display: flex;
+    flex-direction: column;
+    background-color:orange;
+    width: 84rem;
+    height: 20rem;
+    border-radius: 1.5rem;
+}
+.linea-gruesa{
+    display: flex;
+    width: 84rem;
+    height: 1.2rem;
+    background-color: black;
+}
+.img1{
+    display: flex;
+    width: 84rem;
+    height: 15rem;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+}
+
+.Categoria2{
+display: flex;
+flex-direction: row;
+width: 100%;
+}
+.minicate2{
+display: flex;
+flex-direction: row;
+font-size: 1.5rem;
+width: 100%;
+justify-content: center;
+padding: 1.5rem;
+}
+.letra-menu{
+    padding-right: 5rem;
+}
+.linea-menu{
+    padding-right:3rem ;
+    font-size: 2rem;
+    color: white;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+ 
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    padding:0 0 0 1rem;
+    margin-top: 1rem;
+    justify-content: space-around;
+}
+
+.primer-contenedor{
+    display: flex;
+    flex-direction: column;
+}
+.solicitar-cuenta{
+    display: flex;
+    flex-direction: column;
+    width: 21.7rem;
+    height: 10rem;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem; 
+}
+
+.entrar-cita{
+color: rgba(255, 255, 255, 0.842);
+display: flex;
+font-size: 1rem;
+ font-family: Arial, Helvetica, sans-serif;
+ background-color: rgb(0, 0, 0);
+ width: 20rem;
+ height: 1.5rem;
+ padding: 0.8rem;
+ justify-content: center;
+ border-top-left-radius: 1.5rem;
+ border-top-right-radius: 1.5rem; 
+}
+
+.contenedores-lista{
+    width: 19.6rem;
+    display: flex; 
+    font-size: 1.3rem;
+    color: black;
+    padding: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+    background-color: rgba(100, 95, 95, 0.664);
+}
+
+input{
+    padding: 0.2rem;
+}
+
+.ara{
+    margin-left: 1rem;
+}
+.ara2{
+    margin-left: 2.6rem;
+}
+.ara3{
+    margin-left: 2rem;
+}
+.ara4{
+    margin-left: 8rem;
+    margin-top: 3rem;
+    background-color: orange;
+}
+
+.segundo-contenedor{
+    display: flex;
+    flex-direction: column;
+}
+.transaciones{
+    color: orange;
+    display: flex;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0);
+    width: 20.5rem;
+    margin-top: 1.5rem;
+    height: 1.5rem;
+ padding: 0.6rem;
+    justify-content: center;
+}
+.Categoria3{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.minicate3{
+    color: white;
+    display: flex;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+}
+.bancoss{
+    border-bottom:1px solid white;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 0.9rem;
+}
+.pago{
+    margin-bottom: 1rem;
+}
+.ul3{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 1.1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+    background-color: rgba(0, 0, 0, 0.774);
+}
+.Categoria4{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.tarjeta{
+    color: orange;
+    display: flex;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0);
+    width: 20.5rem;
+    height: 1.5rem;
+   padding: 0.6rem;
+    justify-content: center;   
+}
+.ultimo-contenedor{
+    display: flex;
+    flex-direction: column;
+    width: 50rem;
+    margin-right: 5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contenedores1{
+    display: flex;
+    flex-direction: row;
+}
+
+.productos{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(206, 202, 202);
+    width: 21.7rem;
+    height: 20rem;
+    margin-left: 3rem;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+}
+
+.productos2{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(206, 202, 202);
+    width: 21.7rem;
+    height: 20rem;
+    margin-left: 3rem;
+    margin-top: 0.6rem;
+    border-bottom-left-radius: 1.5rem;
+}
+.productos3{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(206, 202, 202);
+    width: 21.7rem;
+    height: 20rem;
+    margin-left: 3rem;
+    margin-top: 0.6rem;
+    border-bottom-right-radius: 1.5rem;
+}
+.subtitulos-productos{
+    color: rgba(255, 255, 255, 0.842);
+    display: flex;
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0);
+    width: 20.5rem;
+    height: 1.5rem;
+   padding: 0.6rem;
+    justify-content: center;  
+    border-top-left-radius: 1.5rem; 
+}
+.subtitulos-productos2{
+    color: rgba(255, 255, 255, 0.842);
+    display: flex;
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0);
+    width: 20.5rem;
+    height: 1.5rem;
+   padding: 0.6rem;
+    justify-content: center;  
+    border-top-right-radius: 1.5rem; 
+}
+.imganes{
+    width: 15rem;
+    height: 6rem;
+    margin-left: 2rem;
+    padding: 1rem;
+}
+.texto-lorem{
+    padding: 0.6rem;
+}
+.subtitulos-productos3{
+    color: rgba(255, 255, 255, 0.842);
+    display: flex;
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0);
+    width: 20.5rem;
+    height: 1.5rem;
+   padding: 0.6rem;
+    justify-content: center;  
+}
+footer{
+    background-color: black;
+    margin-top: 0.7rem;
+    width: 100%;
+    display: flex;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: center;
+    font-size: 1rem;
+
+}
+.textofinal{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;  
+}
+
+
